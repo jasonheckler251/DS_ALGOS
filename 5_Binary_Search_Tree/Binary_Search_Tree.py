@@ -43,7 +43,7 @@ class BinarySearchTree(object):
         if self.root:
             return self.getMin(self.root)
 
-
+    # O (logN)
     def getMaxValue(self):
         if self.root:
             return self.getMin(self.root)
@@ -66,7 +66,7 @@ class BinarySearchTree(object):
             self.traverseInOrder(self.root)
 
 
-
+    #O(N)
     def traverseInOrder(self, node):
 
         if node.leftChild:
